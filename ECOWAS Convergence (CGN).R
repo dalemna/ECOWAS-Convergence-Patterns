@@ -9,7 +9,7 @@ getwd()
 
 # Set your working directory with setwd("").
 # copy-paste the whole path from the console below into the R script (editor)
-setwd("C:/Users/AlemnaD/Desktop/ECOWAS Convergence")
+setwd("C:location")
 
 # Display the content of the current working directory:
 dir() 
@@ -360,16 +360,6 @@ plot(dend_list.4) #plot comparism 2015/16
 
 
 
-#######QCA Analysis focusing on specific variables######
-
-
-##########Load QCA Packages#############
-library(psych); 
-library(base); 
-library(dplyr); 
-library(QCA); 
-library(SetMethods)
-library(venn)
 
 
 
